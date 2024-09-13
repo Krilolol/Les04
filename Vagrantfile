@@ -25,6 +25,7 @@ Vagrant.configure("2") do |config|
   vm30.vm.box = "ubuntu/xenial64"
   vm30.vm.hostname = "web30"
   vm30.vm.network "public_network", bridge: "Realtek PCIe GbE Family Controller"
+  vm30.vm.synced_folder "./shared", "/vagrant_data"
   vm30.disksize.size = '45GB'
   vm30.vm.provision "shell", path: "apache.sh"
     vm30.vm.provider "virtualbox" do |vb|
