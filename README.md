@@ -2,7 +2,12 @@
 ## My steps:
 ### 1) Install Vagrant
 ### 2) Edit Vagrantfile
-### 3) Started 3 webservers
+### 3) Started 3 webservers 
+
+### In startup scripts:
+### - webserver All update
+### - webserver20 All update and install nginx
+### - webserver30 All update and install Apache2
 
 #### Pictures 
 ![Pic1](01.png)
