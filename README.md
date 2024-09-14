@@ -11,8 +11,8 @@
 
 ![Pic3](Vagrantfile.png)
 
-![Server](Vagrantfile.webserver)
+![Server](webserver.png)
 
-![server20](Vagrantfile.webserver20)
+![server20](webserver20.png)
 
-![server30](Vagrantfile.webserver30)
+![server30](webserver30.png)
