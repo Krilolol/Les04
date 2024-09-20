@@ -17,3 +17,12 @@
 #### sudo apt -y install ppa-purge
 ![Pic5](05-ppa-purge.png)
 
+
+### File for service myserv
+![Pic6](06-service.png)
+
+### File for timer myserv
+![Pic8](08-timer.png)
+
+### Log for service myserv
+![Pic10](10-var-log.png)
