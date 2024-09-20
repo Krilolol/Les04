@@ -26,3 +26,14 @@
 
 ### Log for service myserv
 ![Pic10](10-var-log.png)
+
+
+## Firewall configuration
+### Allow SSH
+#### sudo ufw allow ssh
+
+### Disable All from 192.168.0.111
+#### sudo ufw deny from 192.168.0.111
+
+### Firewall status
+![Pic11](11-ufw_status.png)
