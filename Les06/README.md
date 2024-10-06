@@ -37,3 +37,44 @@
 
 ### Firewall status
 ![Pic11](11-ufw_status.png)
+
+### Deny ssh from IP
+![Pic12](12-ufw_ssh_deny.png)
+
+## Fail2ban configuration
+
+### sudo apt install fail2ban -y
+### sudo systemctl enable fail2ban
+![Pic15](15-fail2ban_sys.png)
+
+### sudo systemctl restart fail2ban.service
+![Pic16](16-fail2ban_conf_log.png)
+
+
+## Add new disk and automount
+
+### Partition View 
+![Pic21](21-NoDisk.png)
+
+### Create disk
+![Pic22](22-CreateDisk.png)
+![Pic23](23-CreateDisk2Gb.png)
+![Pic24](24-CreateDisk2GbFinish.png)
+
+### Run fdisk
+![Pic25](25-Disk2Gb_sdc.png)
+![Pic26](26-Disk2Gb_sdc1.png)
+
+### Format new disk
+![Pic27](27-Disk2Gb_sdc1_id.png)
+
+### Make Dir and mount drive
+![Pic28](28-Disk2Gb_mount.png)
+
+### Add mount (/etc/fstab)
+![Pic29](29-Disk2Gb_fstab.png)
+
+### Restart and verify automount
+![Pic30](30-Disk2Gb_restart.png)
+
+
